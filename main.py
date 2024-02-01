@@ -4,7 +4,7 @@ from telegram import WebAppInfo
 
 
 
-bot = telebot.TeleBot('6710926135:AAEoF5GiNnvww1AEGAScxisECeX7YXMWLKw')
+bot = telebot.Telebot(YOUR TOKEN)
 
 
 @bot.message_handler(commands=['start'])
